@@ -1,0 +1,16 @@
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\bin\Debug\net5.0\Rsa_lab.exe
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\bin\Debug\net5.0\Rsa_lab.deps.json
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\bin\Debug\net5.0\Rsa_lab.runtimeconfig.json
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\bin\Debug\net5.0\Rsa_lab.runtimeconfig.dev.json
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\bin\Debug\net5.0\Rsa_lab.dll
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\bin\Debug\net5.0\ref\Rsa_lab.dll
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\bin\Debug\net5.0\Rsa_lab.pdb
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.csproj.AssemblyReference.cache
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.AssemblyInfoInputs.cache
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.AssemblyInfo.cs
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.csproj.CoreCompileInputs.cache
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.dll
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\ref\Rsa_lab.dll
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.pdb
+C:\Users\urmomlover\RiderProjects\Rsa_lab\Rsa_lab\obj\Debug\net5.0\Rsa_lab.genruntimeconfig.cache

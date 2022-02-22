@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaLab", "RsaLab\RsaLab.csproj", "{04A13459-A3F9-452E-B91D-39626911A81E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaTest", "RsaTest\RsaTest.csproj", "{DDFA7E13-EC8B-4624-B258-660BCBC411D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04A13459-A3F9-452E-B91D-39626911A81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A13459-A3F9-452E-B91D-39626911A81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A13459-A3F9-452E-B91D-39626911A81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A13459-A3F9-452E-B91D-39626911A81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFA7E13-EC8B-4624-B258-660BCBC411D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFA7E13-EC8B-4624-B258-660BCBC411D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFA7E13-EC8B-4624-B258-660BCBC411D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFA7E13-EC8B-4624-B258-660BCBC411D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

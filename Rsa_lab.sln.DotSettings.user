@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c5678231_002Dda8b_002D416a_002Dab6f_002D6d7e4fa11937/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AdditionTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.AdditionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.SubtractionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.MultiplicationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.DivisionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.DivisionWithRemainderTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.EqualsTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.NotEqualsTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.LesserComparisonTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DDFA7E13-EC8B-4624-B258-660BCBC411D7::net5.0::RsaTest.BiggerComparisonTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
