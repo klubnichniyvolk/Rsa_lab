@@ -1,16 +1,48 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Numerics;
 
 namespace Rsa_lab
 {
     public class Program
     {
+        private readonly char[] _characters = new char[] 
+            {'#', 'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И',
+            'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 
+            'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ь', 'Ы', 'Ъ',
+            'Э', 'Ю', 'Я', ' ', '1', '2', '3', '4', '5', '6', '7',
+            '8', '9', '0'};
         public static void Main(string[] args)
         {
-            var rsa = new Rsa(101);
-            var rsa1 = new Rsa(5);
-            Console.WriteLine((rsa+rsa1).Decode());
-            Console.WriteLine((rsa%rsa1).Decode());
-            Console.WriteLine(rsa==rsa1);
+            Console.WriteLine("Введите простое число P:");
+            Rsa p = new Rsa(Int32.Parse(Console.ReadLine()));
+            Console.WriteLine("Введите простое число Q:");
+            Rsa q = new Rsa(Int32.Parse(Console.ReadLine()));
+
+            Console.WriteLine($"p:{p.Decode()}, q:{q.Decode()}");
+        }
+        
+        private List<string> RSA_Endode(string s, long e, long n)
+        {
+            List<string> result = new List<string>();
+            BigInteger bi;
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                int index = Array.IndexOf(_characters, s[i]);
+
+                bi = new BigInteger(index);
+                bi = BigInteger.Pow(bi, (int)e);
+
+                BigInteger n_ = new BigInteger((int)n);
+
+                bi = bi % n_;
+
+                result.Add(bi.ToString());
+            }
+
+            return result;
         }
     }
 
