@@ -1,6 +1,7 @@
-﻿using System;
+﻿// https://vscode.ru/prog-lessons/algoritm-rsa.html
+
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Numerics;
 
 namespace Rsa_lab
