@@ -9,25 +9,25 @@ namespace RsaTest
         [Test]
         public void SimpleAddition()
         {
-            Rsa rsa = new Rsa(88);
-            Rsa rsa1 = new Rsa(12);
-            var actual = (rsa+rsa1).Decode();
+            MyByte myByte = new MyByte(88);
+            MyByte rsa1 = new MyByte(12);
+            var actual = (myByte+rsa1).Decode();
             Assert.AreEqual(100, actual);
         }
         [Test]
         public void NullAddition()
         {
-            Rsa rsa = new Rsa(0);
-            Rsa rsa1 = new Rsa(0);
-            var actual = (rsa+rsa1).Decode();
+            MyByte myByte = new MyByte(0);
+            MyByte rsa1 = new MyByte(0);
+            var actual = (myByte+rsa1).Decode();
             Assert.AreEqual(0, actual);
         }
         [Test]
         public void NegativeAddition()
         {
-            Rsa rsa = new Rsa(-10);
-            Rsa rsa1 = new Rsa(-90);
-            var actual = (rsa+rsa1).Decode();
+            MyByte myByte = new MyByte(-10);
+            MyByte rsa1 = new MyByte(-90);
+            var actual = (myByte+rsa1).Decode();
             Assert.AreEqual(-100, actual);
         }
     }
@@ -37,25 +37,25 @@ namespace RsaTest
         [Test]
         public void SimpleSubtraction()
         {
-            Rsa rsa = new Rsa(110);
-            Rsa rsa1 = new Rsa(10);
-            var actual = (rsa-rsa1).Decode();
+            MyByte myByte = new MyByte(110);
+            MyByte rsa1 = new MyByte(10);
+            var actual = (myByte-rsa1).Decode();
             Assert.AreEqual(100, actual);
         }
         [Test]
         public void NullSubtraction()
         {
-            Rsa rsa = new Rsa(0);
-            Rsa rsa1 = new Rsa(0);
-            var actual = (rsa-rsa1).Decode();
+            MyByte myByte = new MyByte(0);
+            MyByte rsa1 = new MyByte(0);
+            var actual = (myByte-rsa1).Decode();
             Assert.AreEqual(0, actual);
         }
         [Test]
         public void NegativeSubtraction()
         {
-            Rsa rsa = new Rsa(-10);
-            Rsa rsa1 = new Rsa(-110);
-            var actual = (rsa1-rsa).Decode();
+            MyByte myByte = new MyByte(-10);
+            MyByte rsa1 = new MyByte(-110);
+            var actual = (rsa1-myByte).Decode();
             Assert.AreEqual(-100, actual);
         }
     }
@@ -65,25 +65,25 @@ namespace RsaTest
         [Test]
         public void SimpleMultiplication()
         {
-            Rsa rsa = new Rsa(5);
-            Rsa rsa1 = new Rsa(20);
-            var actual = (rsa*rsa1).Decode();
+            MyByte myByte = new MyByte(5);
+            MyByte rsa1 = new MyByte(20);
+            var actual = (myByte*rsa1).Decode();
             Assert.AreEqual(100, actual);
         }
         [Test]
         public void NullMultiplication()
         {
-            Rsa rsa = new Rsa(0);
-            Rsa rsa1 = new Rsa(0);
-            var actual = (rsa*rsa1).Decode();
+            MyByte myByte = new MyByte(0);
+            MyByte rsa1 = new MyByte(0);
+            var actual = (myByte*rsa1).Decode();
             Assert.AreEqual(0, actual);
         }
         [Test]
         public void NegativeMultiplication()
         {
-            Rsa rsa = new Rsa(-50);
-            Rsa rsa1 = new Rsa(-2);
-            var actual = (rsa*rsa1).Decode();
+            MyByte myByte = new MyByte(-50);
+            MyByte rsa1 = new MyByte(-2);
+            var actual = (myByte*rsa1).Decode();
             Assert.AreEqual(100, actual);
         }
     }
@@ -93,9 +93,9 @@ namespace RsaTest
         [Test]
         public void SimpleDivision()
         {
-            Rsa rsa = new Rsa(300);
-            Rsa rsa1 = new Rsa(3);
-            var actual = (rsa/rsa1).Decode();
+            MyByte myByte = new MyByte(300);
+            MyByte rsa1 = new MyByte(3);
+            var actual = (myByte/rsa1).Decode();
             Assert.AreEqual(100, actual);
         }
         [Test]
@@ -103,9 +103,9 @@ namespace RsaTest
         {
             try
             {
-                Rsa rsa = new Rsa(0);
-                Rsa rsa1 = new Rsa(0);
-                var actual = (rsa / rsa1).Decode();
+                MyByte myByte = new MyByte(0);
+                MyByte rsa1 = new MyByte(0);
+                var actual = (myByte / rsa1).Decode();
                 Assert.Fail();
             }
             catch (DivideByZeroException)
@@ -116,9 +116,9 @@ namespace RsaTest
         [Test]
         public void NegativeDivision()
         {
-            Rsa rsa = new Rsa(-50);
-            Rsa rsa1 = new Rsa(-2);
-            var actual = (rsa*rsa1).Decode();
+            MyByte myByte = new MyByte(-50);
+            MyByte rsa1 = new MyByte(-2);
+            var actual = (myByte*rsa1).Decode();
             Assert.AreEqual(100, actual);
         }
     }
@@ -128,9 +128,9 @@ namespace RsaTest
         [Test]
         public void SimpleDivisionWithRemainder()
         {
-            Rsa rsa = new Rsa(302);
-            Rsa rsa1 = new Rsa(3);
-            var actual = (rsa%rsa1).Decode();
+            MyByte myByte = new MyByte(302);
+            MyByte rsa1 = new MyByte(3);
+            var actual = (myByte%rsa1).Decode();
             Assert.AreEqual(2, actual);
         }
         [Test]
@@ -138,9 +138,9 @@ namespace RsaTest
         {
             try
             {
-                Rsa rsa = new Rsa(0);
-                Rsa rsa1 = new Rsa(0);
-                var actual = (rsa % rsa1).Decode();
+                MyByte myByte = new MyByte(0);
+                MyByte rsa1 = new MyByte(0);
+                var actual = (myByte % rsa1).Decode();
                 Assert.Fail();
             }
             catch (DivideByZeroException)
@@ -151,9 +151,9 @@ namespace RsaTest
         [Test]
         public void NegativeDivisionWithRemainder()
         {
-            Rsa rsa = new Rsa(-51);
-            Rsa rsa1 = new Rsa(-2);
-            var actual = (rsa%rsa1).Decode();
+            MyByte myByte = new MyByte(-51);
+            MyByte rsa1 = new MyByte(-2);
+            var actual = (myByte%rsa1).Decode();
             Assert.AreEqual(-1, actual);
         }
     }
@@ -163,34 +163,34 @@ namespace RsaTest
         [Test]
         public void Equals()
         {
-            Rsa rsa = new Rsa(1);
-            Rsa rsa1 = new Rsa(1);
-            var actual = rsa==rsa1;
+            MyByte myByte = new MyByte(1);
+            MyByte rsa1 = new MyByte(1);
+            var actual = myByte==rsa1;
             Assert.AreEqual(true, actual);
         }
         [Test]
         public void NotEquals()
         {
-            Rsa rsa = new Rsa(1);
-            Rsa rsa1 = new Rsa(2);
-            var actual = rsa==rsa1;
+            MyByte myByte = new MyByte(1);
+            MyByte rsa1 = new MyByte(2);
+            var actual = myByte==rsa1;
             Assert.AreEqual(false, actual);
         }
 
         [Test]
         public void NullEquals()
         {
-            Rsa rsa = new Rsa(0);
-            Rsa rsa1 = new Rsa(0);
-            var actual = rsa == rsa1;
+            MyByte myByte = new MyByte(0);
+            MyByte rsa1 = new MyByte(0);
+            var actual = myByte == rsa1;
             Assert.AreEqual(true, actual);
         }
         [Test]
         public void NegativeEquals()
         {
-            Rsa rsa = new Rsa(-2);
-            Rsa rsa1 = new Rsa(-2);
-            var actual = rsa==rsa1;
+            MyByte myByte = new MyByte(-2);
+            MyByte rsa1 = new MyByte(-2);
+            var actual = myByte==rsa1;
             Assert.AreEqual(true, actual);
         }
     }
@@ -200,25 +200,25 @@ namespace RsaTest
         [Test]
         public void NotEquals()
         {
-            Rsa rsa = new Rsa(1);
-            Rsa rsa1 = new Rsa(2);
-            var actual = rsa!=rsa1;
+            MyByte myByte = new MyByte(1);
+            MyByte rsa1 = new MyByte(2);
+            var actual = myByte!=rsa1;
             Assert.AreEqual(true, actual);
         }
         [Test]
         public void NullNotEquals()
         {
-            Rsa rsa = new Rsa(0);
-            Rsa rsa1 = new Rsa(0);
-            var actual = rsa != rsa1;
+            MyByte myByte = new MyByte(0);
+            MyByte rsa1 = new MyByte(0);
+            var actual = myByte != rsa1;
             Assert.AreEqual(false, actual);
         }
         [Test]
         public void NegativeNotEquals()
         {
-            Rsa rsa = new Rsa(-2);
-            Rsa rsa1 = new Rsa(-2);
-            var actual = rsa!=rsa1;
+            MyByte myByte = new MyByte(-2);
+            MyByte rsa1 = new MyByte(-2);
+            var actual = myByte!=rsa1;
             Assert.AreEqual(false, actual);
         }
     }
@@ -228,33 +228,33 @@ namespace RsaTest
         [Test]
         public void PositiveComparision()
         {
-            Rsa rsa = new Rsa(1);
-            Rsa rsa1 = new Rsa(2000);
-            var actual = rsa < rsa1;
+            MyByte myByte = new MyByte(1);
+            MyByte rsa1 = new MyByte(2000);
+            var actual = myByte < rsa1;
             Assert.AreEqual(true, actual);
         }
         [Test]
         public void NegativeComparision()
         {
-            Rsa rsa = new Rsa(-200);
-            Rsa rsa1 = new Rsa(-2);
-            var actual = rsa < rsa1;
+            MyByte myByte = new MyByte(-200);
+            MyByte rsa1 = new MyByte(-2);
+            var actual = myByte < rsa1;
             Assert.AreEqual(true, actual);
         }
         [Test]
         public void NullComparision()
         {
-            Rsa rsa = new Rsa(2);
-            Rsa rsa1 = new Rsa(0);
-            var actual = rsa < rsa1;
+            MyByte myByte = new MyByte(2);
+            MyByte rsa1 = new MyByte(0);
+            var actual = myByte < rsa1;
             Assert.AreEqual(false, actual);
         }
         [Test]
         public void SelfComparision()
         {
-            Rsa rsa = new Rsa(2);
-            Rsa rsa1 = new Rsa(2);
-            var actual = rsa < rsa1;
+            MyByte myByte = new MyByte(2);
+            MyByte rsa1 = new MyByte(2);
+            var actual = myByte < rsa1;
             Assert.AreEqual(false, actual);
         }
     }
@@ -264,33 +264,33 @@ namespace RsaTest
         [Test]
         public void PositiveComparision()
         {
-            Rsa rsa = new Rsa(1);
-            Rsa rsa1 = new Rsa(2000);
-            var actual = rsa > rsa1;
+            MyByte myByte = new MyByte(1);
+            MyByte rsa1 = new MyByte(2000);
+            var actual = myByte > rsa1;
             Assert.AreEqual(false, actual);
         }
         [Test]
         public void NegativeComparision()
         {
-            Rsa rsa = new Rsa(-200);
-            Rsa rsa1 = new Rsa(-2);
-            var actual = rsa > rsa1;
+            MyByte myByte = new MyByte(-200);
+            MyByte rsa1 = new MyByte(-2);
+            var actual = myByte > rsa1;
             Assert.AreEqual(false, actual);
         }
         [Test]
         public void NullComparision()
         {
-            Rsa rsa = new Rsa(2);
-            Rsa rsa1 = new Rsa(0);
-            var actual = rsa > rsa1;
+            MyByte myByte = new MyByte(2);
+            MyByte rsa1 = new MyByte(0);
+            var actual = myByte > rsa1;
             Assert.AreEqual(true, actual);
         }
         [Test]
         public void SelfComparision()
         {
-            Rsa rsa = new Rsa(2);
-            Rsa rsa1 = new Rsa(2);
-            var actual = rsa > rsa1;
+            MyByte myByte = new MyByte(2);
+            MyByte rsa1 = new MyByte(2);
+            var actual = myByte > rsa1;
             Assert.AreEqual(false, actual);
         }
     }
