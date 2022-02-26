@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ebDzg3Lbg6HSUUb2ZQclvFDlJ3YA/n627E8843zNPyAl7blXuj7Yz1uBSqp6kSKBMYE3+oCfeT5A+GOTWj6kSw==",
+  "dgSpecHash": "C5Nj4ZK7D2awxfvy6aEbS7kUVsggOloRRoCyBwtdl37ei5aK71oXEOValcIpucdSjUyd/tFxNqGpkKmU7eMLug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\urmomlover\\RiderProjects\\Rsa_lab\\RsaLab\\RsaLab.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\RsaLab\\RsaLab.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nobodyknowsdotcom\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
