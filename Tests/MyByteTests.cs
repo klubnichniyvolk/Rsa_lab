@@ -2,7 +2,7 @@ using System;
 using NUnit.Framework;
 using Rsa_lab;
 
-namespace RsaTest
+namespace MyByteTests
 {
     public class AdditionTests
     {

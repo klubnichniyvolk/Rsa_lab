@@ -19,7 +19,7 @@ namespace Rsa_lab
                 Console.WriteLine($"Ваши секретный ключи: \ne_:{rsaEncryptor.GetE_()} \nn:{rsaEncryptor.GetN()}");
                 
                 Console.WriteLine("Введите сообщение, которое будет зашифровано:");
-                var message = Console.ReadLine().ToUpper();
+                var message = Console.ReadLine();
                 var encoded = rsaEncryptor.Encode(message);
                 Console.WriteLine("Зашифрованная строка:");
                 encoded.ForEach(Console.Write);

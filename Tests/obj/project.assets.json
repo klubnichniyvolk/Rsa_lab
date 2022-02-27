@@ -4974,11 +4974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\RsaTest\\RsaTest.csproj",
-      "projectName": "RsaTest",
-      "projectPath": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\RsaTest\\RsaTest.csproj",
+      "projectUniqueName": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\Tests\\Tests.csproj",
+      "projectName": "Tests",
+      "projectPath": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\nobodyknowsdotcom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\RsaTest\\obj\\",
+      "outputPath": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nobodyknowsdotcom\\AppData\\Roaming\\NuGet\\NuGet.Config"

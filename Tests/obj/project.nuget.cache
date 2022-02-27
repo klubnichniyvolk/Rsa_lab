@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S3GICDtbSL8ziu+iMAw89s1hZOlYFiMuyaek7OLpVmcDcftZ1evzU7ZzMTo4oQ779bHz1dRi7CFZZwMVHGMQ1Q==",
+  "dgSpecHash": "0s4u50bGgLIC7x0Nkau4WWgrB1DyFteX2bDwKrw5Zyzm8ggEiEuTSAez8DxMDnuJniBH3XK4hzfj3/tLgyVeVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\RsaTest\\RsaTest.csproj",
+  "projectFilePath": "C:\\Users\\nobodyknowsdotcom\\RiderProjects\\Rsa_lab\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nobodyknowsdotcom\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\nobodyknowsdotcom\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

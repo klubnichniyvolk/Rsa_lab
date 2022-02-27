@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaLab", "RsaLab\RsaLab.csproj", "{04A13459-A3F9-452E-B91D-39626911A81E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaTest", "RsaTest\RsaTest.csproj", "{DDFA7E13-EC8B-4624-B258-660BCBC411D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{DDFA7E13-EC8B-4624-B258-660BCBC411D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

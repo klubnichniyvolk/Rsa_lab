@@ -91,6 +91,7 @@ namespace Rsa_lab
         
         public List<string> Encode(string s)
         {
+            s = s.ToUpper();
             List<string> result = new List<string>();
             BigInteger bi;
 
