@@ -1,6 +1,7 @@
 ﻿// https://vscode.ru/prog-lessons/algoritm-rsa.html
 
 using System;
+using System.IO;
 
 namespace Rsa_lab
 {
@@ -12,14 +13,27 @@ namespace Rsa_lab
             var p = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Введите простое число Q:");
             var q = Int32.Parse(Console.ReadLine());
-
+            
             if (RSA.IsTheNumberSimple(p) && RSA.IsTheNumberSimple(q))
             {
+                var message = "";
+                StreamReader sr = new StreamReader("input.txt");
+ 
+                while (!sr.EndOfStream)
+                {
+                    message += sr.ReadLine();
+                }
+ 
+                sr.Close();
+ 
+                message = message.ToUpper();
+                
                 RSA rsaEncryptor = new RSA(p, q);
                 Console.WriteLine($"Ваши секретный ключи: \ne_:{rsaEncryptor.GetE_()} \nn:{rsaEncryptor.GetN()}");
                 
-                Console.WriteLine("Введите сообщение, которое будет зашифровано:");
-                var message = Console.ReadLine();
+                Console.WriteLine("Исходная строка:");
+                Console.WriteLine(message);
+                
                 var encoded = rsaEncryptor.Encode(message);
                 Console.WriteLine("Зашифрованная строка:");
                 encoded.ForEach(Console.Write);
