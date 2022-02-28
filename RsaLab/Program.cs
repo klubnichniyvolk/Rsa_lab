@@ -1,6 +1,4 @@
-﻿// https://vscode.ru/prog-lessons/algoritm-rsa.html
-
-using System;
+﻿using System;
 using System.IO;
 
 namespace Rsa_lab
